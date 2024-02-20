@@ -5,38 +5,102 @@
 #adição = numero1 + numero2 + 1 
 #print(adição)
 
+
+
 numero1 = int(input('digite o primeiro numero: '))
 numero2 = int(input('digite o segundo numero:'))
 soma= mumero1+mumero2 
 if = soma > 20:
+     print ('resultado:{soma+8}')
+else :
+    print('resultado:{soma-5}')
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#2. Faça um programa que leia dois valores inteiros e efetue a adição.
-#   Caso o valor somado seja maior que 20, este deverá ser apresentado
-#   somando-se a ele mais 8, caso o valor somado seja menor ou igual a
-#   20, este deverá ser apresentado subtraindo-se 5.
 
 #3. Faça um programa que leia um número e imprima uma das duas mensagens:
 #   "É múltiplo de 3"ou "Não é múltiplo de 3".
 
+
+
+
+numero=int(input('digite um número')) 
+if numero%3==0:
+    print(numero,'é multiplo de 3')
+else:
+    print(numero,'émultiplo de 3')
+
+
+
+
+
+
+
+
+
+
+
+
+
 #4. Faça um programa que leia um número e informe se ele é ou não divisível por 5.
 
+
+numero=int(imput('digite um numero'))
+if numero % 5==0: 
+    print(numero,'é divisivel por 5')
+else:
+    print(numero,'não é divisivel por 5')
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #5. Faça um programa que leia um número e informe se ele é divisível por 3 e por 7.
+
+
+
+numero=int(input('digite um número'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #6. A prefeitura do Rio de Janeiro abriu uma linha de crédito para os funcionários
 #   estatutários. O valor máximo da prestação não poderá ultrapassar 30% do salário
