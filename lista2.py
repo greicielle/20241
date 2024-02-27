@@ -140,7 +140,14 @@ print(f"Margem consignável: R${margem_consignavel:.2f}")
 
 
 #8. Faça um programa que leia um número e imprima uma das mensagens:
-#   "Maior do que 20", "Igual a 20"ou "Menor do que 20".
+#   "Maior do que 20", "Igual a 20"ou "Menor do que 
+
+
+
+
+
+
+
 
 #9. Faça um programa que permita entrar com o ano de nascimento da pessoa e com o
 #   ano atual. O programa deve imprimir a idade da pessoa. Não se esqueça de
@@ -159,7 +166,7 @@ print(f"Margem consignável: R${margem_consignavel:.2f}")
 #13. Faça um programa que permita entrar com o nome, a nota da prova 1 e a nota
 #da prova 2 de um aluno. O programa deve imprimir o nome, a nota da prova 1,
 #a nota da prova 2, a média das notas e uma das mensagens: "Aprovado",
-#"Reprovado"ou "em Prova Final"(a média é 7 para aprovação, menor que 3 para
+rova Final"(a média é 7 para aprovação, menor que 3 para
 #reprovação e as demais em prova final).
 
 #14. Faça um programa que permita entrar com o salário de uma pessoa e imprima o
