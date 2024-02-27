@@ -143,6 +143,20 @@ print(f"Margem consignável: R${margem_consignavel:.2f}")
 #   "Maior do que 20", "Igual a 20"ou "Menor do que 
 
 
+numero = int(input("Digite um número: "))
+
+if numero > 20:
+    print("Maior do que 20")
+elif numero == 20:
+    print("Igual a 20")
+else:
+    print("Menor do que 20")
+
+
+
+
+
+
 
 
 
