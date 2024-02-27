@@ -189,6 +189,45 @@ else:
 #10. Faça um programa que leia três números inteiros e imprima os três em ordem
 #crescente.
 
+
+
+
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+numero3 = int(input("Digite o terceiro número: "))
+
+if numero1 < numero2:
+    if numero2 < numero3:
+        print(numero1, numero2, numero3)
+    else:
+        if numero1 < numero3:
+            print(numero1, numero3, numero2)
+        else:
+            print(numero3, numero1, numero2)
+else:
+    if numero3 < numero2:
+        print(numero3, numero2, numero1)
+    else:
+        if numero1 < numero3:
+            print(numero2, numero1, numero3)
+        else:
+            print(numero2, numero3, numero1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
 #11. Faça um programa que leia 3 números e imprima o maior deles.
 
 #12. Faça um programa que leia a idade de uma pessoa e informe:
