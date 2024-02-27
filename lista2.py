@@ -153,6 +153,25 @@ print(f"Margem consignável: R${margem_consignavel:.2f}")
 #   ano atual. O programa deve imprimir a idade da pessoa. Não se esqueça de
 #   verificar se o ano de nascimento informado é válido.
 
+ano_nascimento = int(input("Digite o ano de nascimento: "))
+ano_atual = int(input("Digite o ano atual: "))
+
+if ano_nascimento > ano_atual:
+    print("Ano de nascimento inválido.")
+else:
+    idade = ano_atual - ano_nascimento
+    print(f"A idade da pessoa é {idade} anos.")
+
+
+
+
+
+
+
+
+
+
+
 #10. Faça um programa que leia três números inteiros e imprima os três em ordem
 #crescente.
 
