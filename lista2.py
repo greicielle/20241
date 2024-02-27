@@ -110,6 +110,14 @@ numero=int(input('digite um número'))
 #7. Faça um programa que leia um número e indique se o número está compreendido
 #   entre 20 e 50 ou não.
 
+     numero = int(input("Digite um número: "))
+
+   if numero >= 20 and numero <= 50:
+      print(f"O número {numero} está entre 20 e 50.")
+   else:
+        print(f"O número {numero} não está entre 20 e 50.")
+
+
 #8. Faça um programa que leia um número e imprima uma das mensagens:
 #   "Maior do que 20", "Igual a 20"ou "Menor do que 20".
 
