@@ -95,17 +95,31 @@ numero=int(input('digite um número'))
 
 
 
-
-
-
-
-
-
-
 #6. A prefeitura do Rio de Janeiro abriu uma linha de crédito para os funcionários
-#   estatutários. O valor máximo da prestação não poderá ultrapassar 30% do salário
+#   estatutário por máximo da prestação não poderá ultrapassar 30% do salário
 #   bruto. Faça um programa que permita entrar com o salário bruto
 #   e o valor da prestação e informar se o empréstimo pode ou não ser concedido.
+
+salario_bruto = float(input("Digite o salário bruto: "))
+valor_prestacao = float(input("Digite o valor da prestação: "))
+
+margem_consignavel = salario_bruto * 0.3
+
+if valor_prestacao <= margem_consignavel:
+    print("Empréstimo pode ser concedido.")
+else:
+    print("Empréstimo não pode ser concedido.")
+
+print(f"Margem consignável: R${margem_consignavel:.2f}")
+
+
+
+
+
+
+
+
+
 
 #7. Faça um programa que leia um número e indique se o número está compreendido
 #   entre 20 e 50 ou não.
